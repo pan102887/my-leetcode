@@ -41,3 +41,11 @@ public:
         return result;
     }
 };
+int main(int argc, char *argv[])
+{
+    vector<vector<int>> isConnected{{1, 1, 0}, {1, 1, 0}, {0, 0, 1}};
+    Solution solution;
+    int result = solution.findCircleNum(isConnected);
+    cout << result << endl;
+    return 0;
+}
