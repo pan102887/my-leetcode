@@ -31,6 +31,10 @@
 *.out
 *.app
 
+*.pdb
+*.ilk
+*.vscode
+
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
