@@ -47,5 +47,6 @@ int main(int argc, char **argv)
     Solution solution;
     int res = solution.longestOnes(A, k);
     cout << res << endl;
+    system("pause");
     return 0;
 }
